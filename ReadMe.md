@@ -42,9 +42,14 @@ const characters = [
 ## MAP
 
 1. Get an array of all names
+const names = characters.map(character) => character.name);
+console.log(names);
 2. Get an array of all heights
+const heights = characters.map(character) => character.height);
 3. Get an array of objects with just name and height properties
+const minifiedRecords = characters.map(character => ({name: character.name, height: character.height}));
 4. Get an array of all first names
+const firstNames = characters.map(character => character.name.split(" ")[0];
 
 ## REDUCE
 
